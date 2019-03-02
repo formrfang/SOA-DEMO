@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" addBOMForNewFiles="with NO BOM">
+    <file url="file://$PROJECT_DIR$/soa-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/soa-manager" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/soa-manager-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/soa-manager/soa-manager-dao" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/soa-manager/soa-manager-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/soa-manager/soa-manager-pojo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/soa-manager/soa-manager-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/soa-parent" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

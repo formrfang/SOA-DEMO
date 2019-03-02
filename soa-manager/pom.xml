@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>soa-parent</artifactId>
+        <groupId>com.fang</groupId>
+        <version>1.0-SNAPSHOT</version>
+        <relativePath>../soa-parent/pom.xml</relativePath>
+    </parent>
+    <packaging>pom</packaging>
+    <modules>
+        <module>soa-manager-pojo</module>
+        <module>soa-manager-dao</module>
+        <module>soa-manager-interface</module>
+        <module>soa-manager-service</module>
+    </modules>
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.fang</groupId>
+    <artifactId>soa-manager</artifactId>
+
+
+
+    <dependencies>
+        <!-- 聚合pom工程,依赖常规工具 -->
+        <dependency>
+            <groupId>com.fang</groupId>
+            <artifactId>soa-common</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <!--使用聚合工程启动项目, 配置Tomcat插件 -->
+            <plugin>
+                <groupId>org.apache.tomcat.maven</groupId>
+                <artifactId>tomcat7-maven-plugin</artifactId>
+                <configuration>
+                    <path>/</path>
+                    <port>8089</port>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>

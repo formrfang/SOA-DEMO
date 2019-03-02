@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/soa-common/soa-common.iml" filepath="$PROJECT_DIR$/soa-common/soa-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/soa-manager/soa-manager.iml" filepath="$PROJECT_DIR$/soa-manager/soa-manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/soa-manager/soa-manager-dao/soa-manager-dao.iml" filepath="$PROJECT_DIR$/soa-manager/soa-manager-dao/soa-manager-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/soa-manager/soa-manager-interface/soa-manager-interface.iml" filepath="$PROJECT_DIR$/soa-manager/soa-manager-interface/soa-manager-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/soa-manager/soa-manager-pojo/soa-manager-pojo.iml" filepath="$PROJECT_DIR$/soa-manager/soa-manager-pojo/soa-manager-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/soa-manager/soa-manager-service/soa-manager-service.iml" filepath="$PROJECT_DIR$/soa-manager/soa-manager-service/soa-manager-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/soa-manager-web/soa-manager-web.iml" filepath="$PROJECT_DIR$/soa-manager-web/soa-manager-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/soa-parent/soa-parent.iml" filepath="$PROJECT_DIR$/soa-parent/soa-parent.iml" />
+    </modules>
+  </component>
+</project>
